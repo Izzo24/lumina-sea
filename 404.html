@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>找不到頁面｜螢海 LUMINA</title>
+<meta name="description" content="您要尋找的頁面已沉入深海。回到螢海 LUMINA 首頁，重新潛入這片發光的海。">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://izzo24.github.io/lumina-sea/404.html">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Noto+Sans+TC:wght@300;400&family=Noto+Serif+TC:wght@700;900&family=Sora:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--abyss:#03060f;--cyan:#36e8d6;--aqua:#5ad1ff;--foam:#e9f7ff;--muted:#93a9c7}
+*{margin:0;padding:0;box-sizing:border-box}
+body{min-height:100vh;display:grid;place-items:center;text-align:center;padding:32px;font-family:'Noto Sans TC',sans-serif;color:var(--foam);background:radial-gradient(120% 90% at 50% 0%,#08182f 0%,#040a18 45%,#02050d 100%);font-weight:300;overflow:hidden}
+.wrap{max-width:560px;position:relative;z-index:1}
+.code{font-family:'Cormorant Garamond',serif;font-size:clamp(5rem,22vw,10rem);font-weight:600;line-height:1;color:transparent;-webkit-text-stroke:1.5px var(--cyan);text-shadow:0 0 50px rgba(54,232,214,0.3);letter-spacing:.05em}
+h1{font-family:'Noto Serif TC',serif;font-weight:700;font-size:clamp(1.4rem,4vw,2rem);margin:18px 0 16px;letter-spacing:.04em}
+p{color:var(--muted);margin-bottom:30px;line-height:1.8}
+a.home{display:inline-flex;align-items:center;gap:8px;font-family:'Sora',sans-serif;padding:13px 30px;border-radius:999px;background:linear-gradient(120deg,var(--cyan),var(--aqua));color:#04121a;font-weight:500;transition:transform .25s,box-shadow .3s}
+a.home:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(54,232,214,0.4)}
+.dots span{position:fixed;border-radius:50%;background:var(--cyan);filter:blur(1px);opacity:.5;animation:rise linear infinite}
+@keyframes rise{from{transform:translateY(20vh);opacity:0}10%{opacity:.6}to{transform:translateY(-110vh);opacity:0}}
+@media(prefers-reduced-motion:reduce){.dots span{animation:none;display:none}}
+</style>
+</head>
+<body>
+<div class="dots" aria-hidden="true">
+  <span style="left:12%;width:5px;height:5px;bottom:0;animation-duration:11s"></span>
+  <span style="left:28%;width:3px;height:3px;bottom:0;animation-duration:14s;animation-delay:2s;background:#5ad1ff"></span>
+  <span style="left:46%;width:6px;height:6px;bottom:0;animation-duration:9s;animation-delay:1s"></span>
+  <span style="left:64%;width:4px;height:4px;bottom:0;animation-duration:13s;animation-delay:3s;background:#9b88ff"></span>
+  <span style="left:82%;width:5px;height:5px;bottom:0;animation-duration:10s;animation-delay:1.5s"></span>
+</div>
+<div class="wrap">
+  <div class="code">404</div>
+  <h1>這頁，沉入了深海</h1>
+  <p>您尋找的頁面已隨潮汐漂走，或從未存在於這片海中。<br>讓我們帶您回到岸上，重新潛入螢海。</p>
+  <a class="home" href="./">回到螢海 LUMINA 首頁</a>
+</div>
+</body>
+</html>
